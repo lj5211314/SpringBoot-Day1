@@ -12,6 +12,10 @@ public class HelloAction {
     @ResponseBody
     public  String   boot() throws Exception{
 	//哈哈哈
+	    
+	    
+	    
+	    //你好啊
         System.out.println("Hello  SpringBoot");
         return "hello  SpringBoot";
     }
