@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/first")
 public class JspAction {
-
+//啊啊啊啊
     @RequestMapping("/jsp")
     public  String   jsp() throws Exception{
         System.out.println("我是第一个jsp");
