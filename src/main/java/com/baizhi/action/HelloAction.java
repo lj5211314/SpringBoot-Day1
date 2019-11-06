@@ -11,6 +11,7 @@ public class HelloAction {
     @RequestMapping("/boot")
     @ResponseBody
     public  String   boot() throws Exception{
+	//≥ı ºªØ
         System.out.println("Hello  SpringBoot");
         return "hello  SpringBoot";
     }
