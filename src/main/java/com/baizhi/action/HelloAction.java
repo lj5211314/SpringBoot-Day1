@@ -1,4 +1,4 @@
-package com.baizhi.action;
+ï»¿package com.baizhi.action;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,7 +11,7 @@ public class HelloAction {
     @RequestMapping("/boot")
     @ResponseBody
     public  String   boot() throws Exception{
-	//³õÊ¼»¯
+	//å“ˆå“ˆå“ˆ
         System.out.println("Hello  SpringBoot");
         return "hello  SpringBoot";
     }
